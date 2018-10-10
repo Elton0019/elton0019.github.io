@@ -1,20 +1,3 @@
-.header{
-  grid-template-rows: 80px;
-  grid-area: h;
-  background-color: aqua;
-}
-
-.sideBar{
-  grid-template-columns: 100px;
-  background-color: grey;
-  grid-area: s;
-}
-
-.mainContent{
-  background-color: white;
-  grid-area: c;
-}
-
 body{
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -28,6 +11,41 @@ body{
 }
 
 
+/* HEADER-------------------------------------------------------------------------------------------------------------------------------------*/
+
+.header{
+  grid-template-rows: 80px;
+  grid-area: h;
+  background-color: aqua;
+}
+
+/* SIDEBAR------------------------------------------------------------------------------------------------------------------------------------*/
+
+.sideBar{
+  grid-template-columns: 100px;
+  background-color: lightgray;
+  grid-area: s;
+}
+
+.contactDetails{
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  justify-self: end;
+}
+
+/* MAIN CONTENT-------------------------------------------------------------------------------------------------------------------------------*/
+
+.mainContent{
+  background-color: white;
+  grid-area: c;
+}
+
+
+/* Work Experience-----------------------------------------------*/
 .workExContainer{
   display: flex; 
 }
@@ -37,6 +55,7 @@ body{
   box-sizing: border-box;
 }
 
+/* Education----------------------------------------------------*/
 .eContainer{
   display: flex;
 }
