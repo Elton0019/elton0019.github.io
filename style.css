@@ -27,6 +27,32 @@ body{
   grid-area: s;
 }
 
+#telephone{
+  list-style-image: url(Icons/telephone.png);
+  padding: 5px;
+}
+
+#email{
+  list-style-image: url(Icons/gmail.png);
+  padding: 5px;
+}
+
+#website{
+  list-style-image: url(Icons/website.png);
+  padding: 5px;
+}
+
+/* Social Media---------------------------------------------------*/
+#fb{
+  list-style-image: url(Icons/facebook.png);
+  padding: 5px;
+}
+
+#ig{
+  list-style-image: url(Icons/instagram.png);
+  padding: 5px;
+}
+
 .contactDetails{
 }
 
