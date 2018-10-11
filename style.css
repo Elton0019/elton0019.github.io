@@ -14,14 +14,27 @@ body{
 /* HEADER-------------------------------------------------------------------------------------------------------------------------------------*/
 
 .header{
+  display: flex;
+  flex-direction: column;
   grid-template-rows: 80px;
+  justify-items: center;
+  align-items: center;
   grid-area: h;
-  background-color: aqua;
+  background-color: lightgreen;
 }
 
+.wrapper{
+  border: 3px solid black;
+  padding: 10px;
+  margin: 10px;
+ }
+ 
 /* SIDEBAR------------------------------------------------------------------------------------------------------------------------------------*/
 
 .sideBar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   grid-template-columns: 100px;
   background-color: lightgray;
   grid-area: s;
@@ -89,5 +102,4 @@ img{
 .eBody{
   width: 35%;
 }
-
 
